@@ -1,0 +1,11 @@
+1.1 b, hb.
+1.2 To prove that b = 5 , the assumption hb.
+1.3 Since the assumption ha can not prove why b = 5.
+2.1 The line with "#check fun n : ℕ => n + 1' , positive integer, positive integer.
+2.2 I don't know. After runnign those commands, it is the line with '#check (10 : ℤ) < 20'. Since it distinguish if the inequality holds.
+3.1 Since in this raw, it consider 3 and 10 are both natural numers, which means ℕ * ℕ -> ℕ. However, in third raw, we defined the form of the number 3 as integer, and ℤ * ℕ -> ℤ.
+3.2 real numbers, no.
+4.1 2, natural numbers, natural numbers.
+4.2 The function shift will become (n : ℕ) : ℕ := n + 4 , the second input.
+4.3 14
+4.4 To prove x = 4. Since h : x = 4 can completly prove it.
