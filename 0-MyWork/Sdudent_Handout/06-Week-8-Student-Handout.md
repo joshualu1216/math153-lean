@@ -18,14 +18,14 @@ audience: students
 - `simp` has a large set of "replace the left side by the right side" lemmas. It rewrites again and again until nothing changes. If the goal becomes `True`, the proof is done.
 - It can rewrite underneath ∀ and ∃; `rw` cannot.
 
-| Command | What it does |
-|---|---|
-| `simp` | tidy up the goal with the built-in lemmas |
-| `simp [h₁, h₂]` | the built-in lemmas, plus the ones you give |
-| `simp only [h₁, h₂]` | only the ones you give |
-| `simp at h` | tidy up the hypothesis `h` |
-| `simp_all` | tidy up all hypotheses and the goal together |
-| `simp?` | do the same, and print which lemmas were used |
+| Command              | What it does                                  |
+| -------------------- | --------------------------------------------- |
+| `simp`               | tidy up the goal with the built-in lemmas     |
+| `simp [h₁, h₂]`      | the built-in lemmas, plus the ones you give   |
+| `simp only [h₁, h₂]` | only the ones you give                        |
+| `simp at h`          | tidy up the hypothesis `h`                    |
+| `simp_all`           | tidy up all hypotheses and the goal together  |
+| `simp?`              | do the same, and print which lemmas were used |
 
 - `norm_num` and `push Not` belong to the same family: simp plus arithmetic on numbers, and simp plus the negation rules.
 - `simp` may produce a form you did not expect: `0 < |x - 0|` becomes `¬x = 0`. Always look at the Infoview afterwards.
